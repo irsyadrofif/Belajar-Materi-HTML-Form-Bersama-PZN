@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select</title>
+</head>
+<body>
+    <form action="">
+        <label for="hobby">hobby</label>
+        <select name="hobby" id="hobby">
+            <option value="coding">coding</option>
+            <option value="gaming">gaming</option>
+            <option value="ngopi" selected>ngopi</option>
+        </select>
+        <input type="submit" value="simpan"><hr>
+    </form>
+     <form action=""><br>
+        pake multiple agar semua opsi kelihatan tapi kurang bagus <br>
+        <label for="hobby">hobby</label>
+        <select name="hobby" id="hobby" multiple>
+            <option value="coding">coding</option>
+            <option value="gaming">gaming</option>
+            <option value="ngopi" selected>ngopi</option>
+        </select>
+        <input type="submit" value="simpan"><hr>
+    </form>
+     <form action="">
+
+        <br>pake multiple size untuk tampilan bisa 2 atau lebih tapi bisa digeser <br>
+        <label for="hobby">hobby</label>
+        <select name="hobby" id="hobby" multiple size="2">
+            <option value="coding">coding</option>
+            <option value="gaming">gaming</option>
+            <option value="ngopi" selected>ngopi</option>
+        </select>
+        <input type="submit" value="simpan">
+    </form>
+
+   <hr>
+    <form action="">
+        <br>pilihan sangat banyak dengan tag optgroup <br>
+           
+        <label for="hobbyy">hobbyy</label>
+        <select name="hobby" id="hobbyy">
+            <optgroup label="coding">
+                <option value="js">coding</option>
+                <option value="css">gaming</option>
+                <option value="html" selected>ngopi</option>
+            </optgroup>
+            <optgroup label="gaming">
+                <option value="mlbb">coding</option>
+                <option value="epep">gaming</option>
+                <option value="mcgg" selected>ngopi</option>
+            </optgroup>
+            <optgroup label="ngopi">
+                <option value="es">coding</option>
+                <option value="rank">gaming</option>
+                <option value="76apel" selected>ngopi</option>
+            </optgroup>
+        </select>
+        <input type="submit" value="simpan">
+    </form>
+</body>
+</html>
